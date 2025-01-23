@@ -6,7 +6,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const CreateHall = () => {
-  const API_URL = "https://hall-bookingapp.herokuapp.com";
+  // const API_URL = "https://hall-bookingapp.herokuapp.com";
+    const API_URL = "https://hall-booking-backend-1.onrender.com";
 
   const [values, setValues] = useState({
     hall_name: "",
