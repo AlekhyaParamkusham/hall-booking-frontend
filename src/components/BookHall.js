@@ -14,7 +14,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const BookHall = () => {
-  const API_URL = "https://hall-bookingapp.herokuapp.com";
+  // const API_URL = "https://hall-bookingapp.herokuapp.com";
+  const API_URL = "https://hall-booking-backend-1.onrender.com";
   const history = useHistory();
   const location = useLocation();
   const hallID = location.pathname.split("/")[2];
