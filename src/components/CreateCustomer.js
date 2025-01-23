@@ -14,7 +14,8 @@ const CreateCustomer = () => {
     contact: "",
   });
 
-  const API_URL = "https://hall-bookingapp.herokuapp.com";
+  // const API_URL = "https://hall-bookingapp.herokuapp.com";
+    const API_URL = "https://hall-booking-backend-1.onrender.com";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
