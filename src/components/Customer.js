@@ -3,7 +3,8 @@ import { Toast, Badge, Col, Row } from "react-bootstrap";
 import axios from "axios";
 
 const Customer = () => {
-  const API_URL = "https://hall-bookingapp.herokuapp.com";
+  // const API_URL = "https://hall-bookingapp.herokuapp.com";
+    const API_URL = "https://hall-booking-backend-1.onrender.com";
 
   const [values, setValues] = useState({
     users: [],
