@@ -5,7 +5,8 @@ import axios from "axios";
 
 const Hall = () => {
   const history = useHistory();
-  const API_URL = "https://hall-bookingapp.herokuapp.com";
+  // const API_URL = "https://hall-bookingapp.herokuapp.com";
+    const API_URL = "https://hall-booking-backend-1.onrender.com";
 
   const [values, setValues] = useState({
     halls: [],
